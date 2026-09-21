@@ -1,0 +1,16 @@
+# ignore
+Data/*
+ckpt/*
+.ipynb_checkpoints
+scMulan/__pycache__
+scMulan/.ipynb_checkpoints
+scMulan/utils/__pycache__
+scMulan/reference/GeneSymbolUniform/__pycache__
+scMulan/reference/GeneSymbolUniform/.ipynb_checkpoints
+update.sh
+*pyc*
+*ipynb_checkpoints
+
+# except
+!Data/README.md
+!ckpt/README.md

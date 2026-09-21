@@ -1,0 +1,40 @@
+site_name: scprint
+theme:
+  name: readthedocs
+  logo: logo.png
+  # analytics:
+  # gtag: G-ABC123
+site_url: https://www.jkobject.com/scPRINT/
+nav:
+  - Home: index.md
+  - structure: structure.md
+  - pre-training: pretrain.md
+  - usage example: usage.md
+  - example notebooks:
+      - cancer usecase: notebooks/cancer_usecase.ipynb
+      - cancer usecase part 2: notebooks/cancer_usecase_part2.ipynb
+  - documentation:
+      - model: model.md
+      - tasks: tasks.md
+      - cli: cli.md
+      - embedders: embedder.md
+      - utils: utils.md
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [src]
+          options:
+            show_root_heading: true
+            show_source: true
+            summary: true
+            merge_init_into_class: true
+            show_signature: false
+            do_heading: true
+      default_handler: python
+  - git-revision-date-localized
+  - git-authors
+  - mkdocs-jupyter:
+      include_source: True
+      include_requirejs: true

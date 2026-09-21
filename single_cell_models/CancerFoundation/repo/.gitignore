@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Conda environment files
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+training_data/.cache
+training_data/data
+training_data/downloads
+
+save
+example
+
+*.png
+*.h5ad
+*.csv
+*.pth
+*.tar

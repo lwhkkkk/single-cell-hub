@@ -1,0 +1,207 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# templates
+.github/templates/*
+.DS_Store
+data/temp/*
+.sync-conflict*
+notebooks/tests/mytest2
+notebooks/tests/mytest
+notebooks/tests/wandb
+data/GroundTruth/*
+data/adamson
+data/fasta/*
+data/scGPT_human
+wandb/*
+*/lightning_logs/*
+data/tensorboard/*
+notebooks/tests/*/
+data/logs/*
+.lr_find_*
+step_*_.*
+data/main/embeddings.parquet
+slurm-*.out
+notebooks/tests/step_0_.h5ad
+data/main/gene_embeddings.parquet
+data/main/main_scenic+.parquet
+scdataloader.out
+data/main/9606.protein.links.v12.0.txt.gz
+data/main/motifs-v10-nr.hgnc-m0.00001-o0.0.tbl
+data/main/main_scenic+_database.feather
+*.npy
+*.joblib
+notebooks/tests/collator_output.txt
+notebooks/tests/curr_genes_mouse.csv
+notebooks/tests/curr_genes.csv
+notebooks/tests/precision_recall_plot.png
+notebooks/tests/lightning_logs/*
+notebooks/additional/lightning_logs/*
+lightning_logs/
+collator_output.txt
+data/bias_sparse.npz
+todel/
+tests/out_*.h5ad
+data/*.h5ad
+notebooks/**/*.h5ad
+notebooks/*.h5ad
+*.ckpt
+data/main/bias_sparse.npz
+*.gv.*
+*.gv
+data/log/
+file.txt
+*.dataset
+*.arrow
+tests/data/step_0__predict_part_0_0.h5ad
+data/human_dcm_hcm_nf/
+data/geneformertest.csv
+clf_omni.pkl
+metrics__*.json
+config/torm.txt
+torm.json
+notebooks/additional/figures/
+notebooks/data/temp/
+data/main/*.parquet
+!data/main/avg_embedding.parquet
+!data/main/biomart_pos.parquet
+metrics_*.json
+step_*
+data/main/gene_embs/
+data/main/gene_locs/
+uniprot_function
+fine_tuned_emb_task3.h5ad
+umap_embeder.pkl
+data/umap__embed_OhbVrp_1.png
+data/umap__embed_OhbVrp_0.png
+grn_fromscprint.h5ad
+testdb/
+testdb12/
+.worktrees/

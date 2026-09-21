@@ -1,0 +1,11 @@
+{
+    "n_bins": 51,
+    "max_seq_len": 1200,
+    "trunc_by_sample": true,
+    "nlayers": 6,
+    "nheads": 8,
+    "embsize": 256,
+    "d_hid": 512,
+    "dropout": 0.2,
+    "n_layers_cls": 3
+}
