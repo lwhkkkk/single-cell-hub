@@ -91,3 +91,7 @@ reports/
 
 # LibreOffice 锁文件
 .~lock.*#
+
+# 例外：Geneformer 源码快照内的字典文件与示例 Notebook（代码运行/理解所需，体积小）
+!single_cell_models/Geneformer/repo/**/*.pkl
+!single_cell_models/Geneformer/repo/**/*.ipynb
