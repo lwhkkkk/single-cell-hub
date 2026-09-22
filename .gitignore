@@ -88,3 +88,6 @@ Desktop.ini
 
 agent.md
 reports/
+
+# LibreOffice 锁文件
+.~lock.*#
