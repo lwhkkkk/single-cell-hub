@@ -5,4 +5,4 @@
 - Official repository: https://github.com/cantinilab/scPRINT
 - Verification: the paper and repository README identify the Cantini lab repository as the maintained scPRINT implementation.
 - Framework/license: PyTorch / GPL-3.0.
-- Status: PDF downloaded; direct sparse clone was retried. The root checkout completed, but fetching the remaining large repository objects stalled at about 237 MB, so the source subdirectories are still incomplete.
+- Status: PDF downloaded. Full git clone failed (upstream objects stalled at ~237 MB), so `repo/` is sourced from the official PyPI sdist `scprint-2.3.8` instead — complete source but without git metadata, hence no commit hash. Replace with a proper pinned clone once GitHub access is available.
